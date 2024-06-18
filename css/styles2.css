@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark grey background */
+    color: white;
+}
+
+header {
+    background-color: #0a0a0a; /* Darker color for the header */
+    padding: 20px 0;
+    border-bottom: 2px solid #2c2c2c; /* Horizontal line under header */
+}
+
+.banner {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 100px; /* Adjust size as needed */
+}
+
+.web-title {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+    border-left: 2px solid #2c2c2c; /* Vertical lines between links */
+    padding: 0 15px;
+}
+
+.nav-links li:first-child {
+    border-left: none; /* No border for the first item */
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+.left-content {
+    flex: 70%;  /* 70% of the space */
+    padding: 10px;
+}
+
+.right-content {
+    flex: 30%;  /* 30% of the space */
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.twitterBox{
+    margin-top: 10px;
+    margin-bottom: 20px; /* Space between the feeds */
+    
+}
+footer {
+    background-color: #0a0a0a; /* Footer background matches the header */
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

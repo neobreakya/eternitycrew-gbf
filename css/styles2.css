@@ -19,10 +19,13 @@ header {
 .banner {
     padding: 10px 20px;
     text-align: center;
+    
 }
 
+
 .logo {
-    width: 100px; /* Adjust size as needed */
+    width: fill;
+    height: auto; /* Adjust size as needed */
 }
 
 .web-title {
@@ -73,6 +76,10 @@ main {
     margin-top: 10px;
     margin-bottom: 20px; /* Space between the feeds */
     
+}
+.newSection{
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 footer {
     background-color: #0a0a0a; /* Footer background matches the header */
